@@ -26,8 +26,8 @@ public class EsperClient {
         int noOfRecordsPerSec;
         int howLongInSec;
         if (args.length < 2) {
-            noOfRecordsPerSec = 2;
-            howLongInSec = 5;
+            noOfRecordsPerSec = 1;
+            howLongInSec = 15;
         } else {
             noOfRecordsPerSec = Integer.parseInt(args[0]);
             howLongInSec = Integer.parseInt(args[1]);

@@ -27,7 +27,7 @@ Atrybuty w każdym zdarzeniu zgodnym ze schematem `WarhammerEvent` mają następ
 * `defend_faction` - nazwa frakcji broniącej
 * `attack_number_of_units` - liczba jednostek frakcji atakującej
 * `defend_number_of_units` - liczba jednostek frakcji broniącej
-* `winner` - informacja kto wygrał (1 lub 2)
+* `winner` - informacja kto wygrał (1-frakcja atakująca lub 2-frakcja broniąca)
 * `ets` - data zakończenia bitwy
 * `its` - data rejestracji bitwy
 
