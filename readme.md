@@ -48,7 +48,7 @@ Opracuj rozwiązania poniższych zadań.
 
 ## Zadanie 1
 Chcielibyśmy wiedzieć, która z atakujących frakcji jest najbardziej agresywna.
-W tym celu chcemy wiedzieć, jaka sumaryczna liczba jednostek została wykorzystana do ataku przez każdą z frakcji w trakcie ostatniej sekundy.
+W tym celu chcemy wiedzieć, jaka sumaryczna liczba jednostek została wykorzystana do ataku przez każdą z frakcji w trakcie ostatnich 10 sekund.
 
 Wyniki powinny zawierać następujące kolumny:
 - `number_of_all_attack_units` - sumę wszystkich jednostek atakujących
@@ -61,7 +61,7 @@ Wyniki powinny zawierać wszystkie kolumny dotyczące zakończonej bitwy.
 
 
 ## Zadanie 3
-Ograniczając analizę jedynie do tych bitew, w których atakująca frakcja zwyciężyła, wykrywaj przypadki, w których wygrała ona, pomimo że liczba jej jednostek była mniejsza o co najmniej 10 od średniej liczby jednostek atakujących we wszystkich bitwach w ciągu ostatniej sekundy.
+Ograniczając analizę jedynie do tych bitew, w których atakująca frakcja zwyciężyła, wykrywaj przypadki, w których wygrała ona, pomimo że liczba jej jednostek była mniejsza o co najmniej 10 od średniej liczby jednostek atakujących we wszystkich bitwach w ciągu ostatnich 10 sekund.
 
 Wyniki powinny zawierać, następujące kolumny:
 - `avg_atk_unit` - średnią ilość jednostek atakujących
