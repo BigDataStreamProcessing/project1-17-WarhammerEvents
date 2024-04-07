@@ -92,7 +92,7 @@ Wyniki powinny zawierać, następujące kolumny:
 
 ## Zadanie 6
 
-Wykrywaj następujące po sobie pary bitew tej samej frakcji, w których w trakcie pierwszej pary frakcja była stroną atakującą, a w dwóch kolejnych, stroną, która się broniła. 
+Wykrywaj następujące po sobie pary bitew tej samej frakcji, w których w trakcie pierwszej pary frakcja była stroną atakującą, a w trakcie drugiej pary stroną, która się broniła. 
 
 Wyniki powinny zawierać następujące kolumny:
 
