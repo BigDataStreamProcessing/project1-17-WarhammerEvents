@@ -70,7 +70,7 @@ Wyniki powinny zawierać, następujące kolumny:
 
 
 ## Zadanie 4
-Jako użytkownik mamy możliwość zaatakowania jednego z dwóch przeciwników. Chcielibyśmy dowiedzieć się, która z dwóch frakcji, Imperium (`The Empire`) czy Bestie Chaosu (`Beasts of Chaos`), jest bardziej zaangażowana w konflikty zbrojne, co oznacza operowanie większą ilością żołnierzy podczas bitew, licząc zarówno obrony, jak i ataki z ich strony w ostatnich 10 bitwach. 
+Jako użytkownik mamy możliwość zaatakowania jednego z dwóch przeciwników. Chcielibyśmy dowiedzieć się, która z dwóch frakcji, Imperium (`The Empire`) czy Bestie Chaosu (`Beasts of Chaos`), jest bardziej zaangażowana w konflikty zbrojne, co oznacza operowanie większą ilością żołnierzy podczas bitew, licząc zarówno obrony, jak i ataki w ostatnich 10 bitwach z ich strony. 
 
 Wyniki powinny zawierać, następujące kolumny:
 
