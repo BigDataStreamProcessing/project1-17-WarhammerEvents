@@ -82,8 +82,8 @@ Wyniki powinny zawierać wszystkie kolumny dotyczące zakończonej bitwy:
 Ograniczając analizę jedynie do tych bitew, w których atakująca 
 frakcja zwyciężyła, wykrywaj przypadki, w których wygrała ona, 
 pomimo że liczba jej jednostek była mniejsza o co najmniej 10 od 
-średniej liczby jednostek atakujących we wszystkich bitwach w ciągu 
-ostatnich 10 sekund.
+średniej liczby jednostek atakujących we wszystkich bitwach 
+zarejestrowanych w ciągu ostatnich 10 sekund.
 
 Wyniki powinny zawierać, następujące kolumny:
 - `avg_atk_unit` - średnią ilość jednostek atakujących
