@@ -107,9 +107,10 @@ Wyniki powinny zawierać, następujące kolumny:
 
 ## Zadanie 5
 
-Znajduj serie co najmniej trzech wygranych bitew frakcji Imperium (`The Empire`), 
-w trakcie których frakcja Bestie Chaosu (`Beasts of Chaos`) nie odniosła 
-żadnego zwycięstwa.
+Dla bitew frakcji Imperium (`The Empire`) znajduj serie co najmniej trzech bitew, 
+w których każda była przez tą frakcję wygrana. 
+W trakcie trwania tej serii nie może pojawić się zwycięska bitwa 
+frakcji Bestie Chaosu (`Beasts of Chaos`).
 
 Zadbaj o to, aby znalezione serie nie nakładały się na siebie. 
 
