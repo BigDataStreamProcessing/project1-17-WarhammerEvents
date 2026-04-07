@@ -96,8 +96,8 @@ Jako użytkownik mamy możliwość zaatakowania jednego z dwóch przeciwników.
 Chcielibyśmy dowiedzieć się, która z dwóch frakcji, Imperium (`The Empire`) 
 czy Bestie Chaosu (`Beasts of Chaos`), jest bardziej zaangażowana w 
 konflikty zbrojne, co oznacza operowanie większą ilością żołnierzy 
-podczas ostatnich 10 zarejestrowanych bitew (niezależnie tego, jaką 
-rolę frakcja odegrała w bitwie) licząc je oddzielnie dla każdej frakcji.
+podczas ostatnich 10 zarejestrowanych bitew dla tej konkretnej frakcji 
+(niezależnie od tego, jaką rolę frakcja odegrała w bitwie).
 
 Wyniki powinny zawierać, następujące kolumny:
 
@@ -112,7 +112,8 @@ w których każda była przez tą frakcję wygrana.
 W trakcie trwania tej serii nie może pojawić się zwycięska bitwa 
 frakcji Bestie Chaosu (`Beasts of Chaos`).
 
-Zadbaj o to, aby znalezione serie nie nakładały się na siebie. 
+Zadbaj o to, aby znalezione serie nie nakładały się na siebie 
+(nie współdzieliły żadnych zdarzeń). 
 
 Wyniki powinny zawierać, następujące kolumny:
 
@@ -122,13 +123,14 @@ Wyniki powinny zawierać, następujące kolumny:
 
 ## Zadanie 6
 
-Wykrywaj następujące po sobie (nie koniecznie bezpośrednio) pary bitew 
-tej samej frakcji, w których w trakcie pierwszej pary frakcja 
-była stroną atakującą, a w trakcie drugiej 
-pary stroną, która się broniła. 
-
-Przez parę bitew, rozumiemy serię dwóch 
-następujących po sobie bezpośrednio bitew. 
+Wykrywaj następujące po sobie (niekoniecznie bezpośrednio) pary rejestracji 
+bitew tej samej frakcji, w których pierwsza para oznacza dwie 
+bezpośrednio po sobie następujące bitwy (w globalnym strumieniu zdarzeń), 
+w których frakcja była stroną atakującą, a druga para oznacza dwie 
+bezpośrednio po sobie następujące bitwy (w globalnym strumieniu), 
+w których ta sama frakcja była stroną broniącą.
+Między pierwszą a drugą parą mogą wystąpić inne 
+bitwy (z udziałem dowolnych frakcji).
 
 Wyniki powinny zawierać następujące kolumny:
 
@@ -139,10 +141,12 @@ Wyniki powinny zawierać następujące kolumny:
 ## Zadanie 7
 
 Dla urozmaicenia gry planujemy nagradzać frakcje za wykonanie 
-niestandardowych sekwencji zdarzeń. 
-W tym celu chcemy wykrywać frakcje broniące się, którym przez 
-co najmniej 3 następujące po sobie bitwy udaje się odeprzeć atak, 
-mimo ciągle zmniejszającej się liczby jednostek walczących w kolejnych bitwach.
+niestandardowych sekwencji zdarzeń. W tym celu chcemy wykrywać 
+frakcje broniące się, którym przez co najmniej 3 następujące 
+po sobie rejestracje bitew (w których ta frakcja jest stroną broniącą) 
+udaje się wygrać każdą z tych bitew, przy czym liczba jednostek 
+tej frakcji ściśle maleje w każdej kolejnej bitwie tej sekwencji 
+(każda kolejna bitwa ma mniej jednostek broniących niż poprzednia).
 
 Wyniki powinny zawierać następujące kolumny:
 - `its_first` - data rejestracji pierwszej bitwy 
