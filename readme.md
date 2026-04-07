@@ -130,7 +130,7 @@ w których frakcja była stroną atakującą, a druga para oznacza dwie
 bezpośrednio po sobie następujące bitwy (w globalnym strumieniu), 
 w których ta sama frakcja była stroną broniącą.
 Między pierwszą a drugą parą mogą wystąpić inne 
-bitwy (z udziałem dowolnych frakcji).
+bitwy, ale tylko z udziałem innych frakcji.
 
 Wyniki powinny zawierać następujące kolumny:
 
