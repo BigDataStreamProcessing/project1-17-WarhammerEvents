@@ -56,7 +56,8 @@ Opracuj rozwiązania poniższych zadań.
 ## Zadanie 1
 Chcielibyśmy wiedzieć, która z atakujących frakcji jest najbardziej agresywna.
 W tym celu chcemy wiedzieć, jaka sumaryczna liczba jednostek została 
-wykorzystana do ataku przez każdą z frakcji w trakcie ostatnich 10 sekund.
+wykorzystana do ataku zarejestrowanego dla każdej z frakcji 
+w trakcie ostatnich 10 sekund.
 
 Wyniki powinny zawierać następujące kolumny:
 - `number_of_all_attack_units` - sumę wszystkich jednostek atakujących
