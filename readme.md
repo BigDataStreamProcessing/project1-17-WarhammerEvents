@@ -100,6 +100,9 @@ konflikty zbrojne, co oznacza operowanie większą ilością żołnierzy
 podczas ostatnich 10 zarejestrowanych bitew dla tej konkretnej frakcji 
 (niezależnie od tego, jaką rolę frakcja odegrała w bitwie).
 
+Dostarczaj wyniki dopiero wówczas, gdy w ramach obu frakcji zostały 
+zarejestrowane jakieś bitwy. 
+
 Wyniki powinny zawierać, następujące kolumny:
 
 - `units_of_empire` - suma jednostek atakujących i broniących dla Imperium
